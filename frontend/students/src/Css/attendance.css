@@ -1,0 +1,51 @@
+/* App.css */
+.App {
+    text-align: center;
+    padding: 20px; /* Add padding to the App container */
+  }
+  
+  .App-header {
+    background-color: #007bff; /* Change header background color to your desired color */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space between the logo and title */
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: 50px; /* Adjust the height of the logo */
+    margin-right: 10px; /* Add margin to the logo for spacing */
+  }
+  
+  h1 {
+    margin: 0; /* Remove margin from h1 */
+  }
+  
+  /* Style the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add some spacing to the table */
+  main {
+    padding: 20px;
+  }
+  

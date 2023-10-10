@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    height: 100%;
+  }
+  
+  .left-side {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100%; /* Set height to 100% */
+    position: fixed; /* Add position fixed to make it cover the whole height */
+  }
+  
+  .logod {
+    margin-left: -inherit;
+    margin-right: 200px;
+   }
+   
+   .logod img {
+     width: 200px;
+     height: 100px;
+   }
+   
+  .dark-theme {
+    margin-top: 20px;
+  }
+  
+  .dark-theme p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dark-theme ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dark-theme li {
+    font-family: 'YourDesiredFont', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white; /* Use the color of the parent element (default text color) */
+    text-decoration: none; /* Remove underline */
+    text-decoration: none;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .overview-dashboard {
+    margin: 20px; /* Consider using percentage or responsive units */
+    flex: 1;
+    margin-left: 320px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .overview-dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .overview-dashboard .buttons button {
+    margin-right: 10px;
+  }
+  
+  .overview-dashboard .content {
+    margin-top: 20px;
+  }
+  
+  .dark-theme ul li a {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+  }
+  
+  .dark-theme ul li a:hover {
+    text-decoration: none !important;
+  }
+
+  .submenu li {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+   
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown div {
+   
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .dropdown-icon {
+    margin-left: 10px;
+  }
+  
+  .submenu {
+    position: absolute;
+    margin-left: 50px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 15px 20px;
+   
+    width: 210px;
+  }
+  
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
